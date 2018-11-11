@@ -22,10 +22,10 @@ namespace DownloadAndUploadPhoto
         private static string ApplicationName = "GoogleDriveAPIStart";
         private static string FolderId = "1dlr5yXRz5KAFonlTzbsnBk739NHXhoQa";  //link to your google drive folder here. Example: drive.google.com/drive/folder/abcdexyz, just put abcdexyz here.
         private static string _fileName = "testFile";
-        private static string _filePath = @"D:\Share\HRobotics.rar";
+        private static string _filePath = @"D:\Share\HRobotics.rar";    //Input files
 
         private static string _contentType = "application/zip";
-        private static string _downloadFilePath = @"D:\asdsad.rar";
+        private static string _downloadFilePath = @"D:\asdsad.rar";     //Output files
 
         static void Main(string[] args)
         {
